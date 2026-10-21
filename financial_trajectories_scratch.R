@@ -1,23 +1,7 @@
 # =============================================================
-# Financial trajectories: descriptive patterns + baseline MLM
+# Financial trajectories
 # American Mosaic Project, Wave 3 (2024)
 # Asian American and Latinx respondents
-# =============================================================
-# Variables (from AMP Wave 3 codebook):
-#   caseid               : case identifier
-#   weight_std           : codebook says use this one in R when comparing across racial groups
-#   racethnicity         : panel race/ethnicity (4 = Hispanic, 6 = Asian/Pacific Islander, Non-Hispanic)
-#   v52finances          : "How would you rate your financial situation today?"          (LEVEL)
-#   v52ratefinances      : "Is your current financial situation better, worse, or about
-#                           the same as five years ago?"                                  (PAST CHANGE)
-#   v52financesfiveyears : "Five years from now, do you believe your financial situation
-#                           will be better, worse, or about the same?"                    (FUTURE CHANGE)
-#   v4amdream            : "The American Dream will be alive for my children and/or the next generation."
-#
-# !! The codebook PDF lists question wording but NOT response codes. Section 0 prints
-#    the value labels -- check them before trusting the recodes in Section 1.
-# !! Profile-variable names (racethnicity) follow AmeriSpeak conventions; confirm
-#    with the names() check below.
 # =============================================================
 
 library(tidyverse)
